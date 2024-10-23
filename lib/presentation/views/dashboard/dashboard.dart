@@ -22,6 +22,9 @@ class AlbumDashBoard extends StatefulWidget {
 class _AlbumDashBoardState extends State<AlbumDashBoard> {
   int selectedIndex = 0;
 
+  ///to edit file, create new packaged, and create new files.
+  ///i.e create a new folder called create nfts in presentation then in that folder create an
+  ///new page createNft.dart
   final List<Widget> dashboardSections = [
     const DesktopDashboard(),
     const DashboardGraph(),
